@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Prince Dave">
+    <meta name="keywords" content="contact form">
+    <meta name="description" content="LTS contact information page">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title> 
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>
+            Contact  Us
+        </h1>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/websiteproject/">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#About-Lts">About <abbr title="Little Taco Shop">LTS</abbr></a>
+                    </li>
+                    <li>
+                       <a href="index.html#Our-menu">Our Menu</a>
+                    </li>
+                    <li>
+                       <a href="hours.html#Store-hours">Store Hours</a>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="contact-form image">
+            <figure>
+                <img src="../images/tacos_tray_400x267.png" alt="Little Taco Shop Tacos" title="Tacos ready to eat!"
+                    width="400" height="260">
+                <figcaption>
+                    Little Taco Shop Tacos
+                </figcaption>
+            </figure>
+        </div>
+    </header> 
+    <div class="contact-body">
+         <main>
+            <section>
+                <h2>
+                    Our Contact Form
+                </h2>
+                <div class="contact-form ">
+                    <form action="http://httpbin.org/post" method="post">
+                        <fieldset style="border-spacing: 100px;">
+                            <legend>Send Us A Message</legend>
+                            <div class="name-input-box input-container ">
+                                <label for="name">Name:</label>
+                                <input type="text" name="Name" id="name" required autocomplete="on" placeholder="Dave Gray">
+                            </div>
+                            <div class="input-container  email-input-box">
+                                <label for="email-address">Email:</label>
+                                <input type="email" name="Email"     id="email-address" required autocomplete="on" placeholder="example@gmail.com">
+                            </div>  
+                            <div class="input-container  textarea-input-box">
+                                <label for="textarea">Your Message:</label><br>
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="btn-container ">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+            </section>
+            <section>
+                <div class="lts-address">
+                     <h2>Our Location </h2>
+                     <address>
+                        555 Taco Temptation Lane, Suit T<br>
+                        Kansas City: Mo 55555-5555
+                        <p>Phone: <a href="tel:+2348096753576" id="phonenumber"> &plus;234-809-6753-576</a></p>                  
+                     </address>
+                     <div class="top-link">
+                        <a href="#">Back to Top</a>
+                     </div>
+                     <hr>
+                </div>
+            </section>
+            <footer>
+                <p>
+                    Copyright &copy; The Little Taco Shop
+                 </p>
+            </footer>
+         </main>
+    </div>
+    
+</body>
+</html>
